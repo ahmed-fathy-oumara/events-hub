@@ -1,9 +1,13 @@
 import React from 'react';
+import './resources/styles.css';
+
+//Components
+import Header from './components/header_footer/Header'
 
 function App() {
   return (
-    <div className="App">
-      Hello
+    <div className="App" style={{ height:"1500px", background:'cornflowerblue' }}>
+      <Header />
     </div>
   );
 }
